@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body bgcolor="#ffffcc">
+    <p>
+       <font color="red" size="6.5">5 Dots altogether</font>
+</p>
+
+<div class="container">
+    <img src="F:\HTML5\new\2CardShade.png" alt="Avatar" class="image" height="110" width="110">
+    <div class="overlay">
+      <div class="image"><img src="D:\Graphics\2Card Masking\dotcard0.png" height="400" width="300"><img src="D:\Graphics\2Card Masking\dotcard5.png" height="400" width="300"></div>
+    
+    </div>
+    
+    <p style="position: fixed;left: ;">
+        <a href="F:\HTML5\2 card masking.html"><img src="F:\HTML5\new\repeat_pic.gif" height="90" width="90"></a>
+</p>
+
+
+<p style="position: fixed;left: 400px; bottom: 50px;">
+    <a href="F:\HTML5\with_total_dots_files\6 dots altogether.html"><img src="D:\Graphics\2Card Masking\new_pic.gif"></a>
+
+
+
+
+</p>
+</body>
+</html>
